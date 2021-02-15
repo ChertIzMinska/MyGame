@@ -1,0 +1,7 @@
+D:\Project_Microsoft_Visual_Soft\MyGame\MyGame\bin\Debug\MyGame.exe.config
+D:\Project_Microsoft_Visual_Soft\MyGame\MyGame\bin\Debug\MyGame.exe
+D:\Project_Microsoft_Visual_Soft\MyGame\MyGame\bin\Debug\MyGame.pdb
+D:\Project_Microsoft_Visual_Soft\MyGame\MyGame\obj\Debug\MyGame.csprojAssemblyReference.cache
+D:\Project_Microsoft_Visual_Soft\MyGame\MyGame\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+D:\Project_Microsoft_Visual_Soft\MyGame\MyGame\obj\Debug\MyGame.exe
+D:\Project_Microsoft_Visual_Soft\MyGame\MyGame\obj\Debug\MyGame.pdb
