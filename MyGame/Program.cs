@@ -15,7 +15,7 @@ namespace MyGame
             {
                 player.action();
             }
-            Console.WriteLine("Ebal ");
+            Console.WriteLine("Eb ");
         }
     }
     
