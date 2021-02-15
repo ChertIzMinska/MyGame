@@ -129,6 +129,7 @@ namespace MyGame
             rang_tool = 1;
             count_of_mine = 1;
             count_of_workers = 1;
+            Console.WriteLine("Blat");
         }
 
         

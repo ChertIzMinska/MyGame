@@ -15,7 +15,7 @@ namespace MyGame
             {
                 player.action();
             }
-            Console.WriteLine("Ebal v rot git");
+            Console.WriteLine("Eb ");
         }
     }
     
