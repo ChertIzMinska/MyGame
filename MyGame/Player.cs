@@ -22,8 +22,7 @@ namespace MyGame
         }
         public bool winner()
         {
-            Console.Clear();
-            Console.WriteLine(gold);
+           
             if(gold+salary>=4294967000)
             {
                 Console.WriteLine("Вы выиграли.");
@@ -33,20 +32,25 @@ namespace MyGame
         }
         public void action()
         {
+            Console.WriteLine(gold);
             Console.WriteLine($"Выберите действие:\n1.Улучшить инструменты({ 10 * rang_tool})\n2.Купить шахту({10000 * count_of_mine})\n3.Нанять рабочего({100 * count_of_workers})\n4.Получить прибыль({salary})\n") ;
             int key=0;
 
             try
             {
+                
                 key = Convert.ToInt32(Console.ReadLine());
+                
             }
             catch(FormatException)
             {
+                Console.Clear();
                 Console.WriteLine("Неверно введенный тип данных ,пожалуйста выберите число.");
                 action();
+                return;
                 
             }
-           
+            Console.Clear();
             switch (key)
             {
                 case 1:
@@ -62,9 +66,10 @@ namespace MyGame
                     take_gold();
                     break;
                 default:
+                   
                     Console.WriteLine("Ошибка.Нажмите кнопку от 1 до 4\n");
                     action();
-                    break;
+                    return;
             }
 
         }
